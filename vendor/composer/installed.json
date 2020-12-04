@@ -1,0 +1,43 @@
+[
+    {
+        "name": "manaphp/framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/manaphp/framework.git",
+            "reference": "40c5376581f23c67976a1f8c0d34600e633c0b19"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/manaphp/framework/zipball/40c5376581f23c67976a1f8c0d34600e633c0b19",
+            "reference": "40c5376581f23c67976a1f8c0d34600e633c0b19",
+            "shasum": ""
+        },
+        "time": "2019-06-09T12:57:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ManaPHP\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "ManaPHP Mark",
+                "email": "manaphp@qq.com"
+            }
+        ],
+        "description": "The ManaPHP Framework",
+        "homepage": "https://github.com/manaphp/framework",
+        "keywords": [
+            "di",
+            "framework",
+            "manaphp"
+        ]
+    }
+]

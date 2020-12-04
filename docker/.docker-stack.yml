@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  __SERVICE_NAME:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    image: docker.l/__PROJECT_NAME/__SERVICE_NAME:__IMAGE_TAG
+    environment:
+      DOTENV_URL: __DOTENV_URL
+    volumes:
+      - logger:/var/www/html/data/logger/
+    deploy:
+      replicas: 1
+volumes:
+  logger:

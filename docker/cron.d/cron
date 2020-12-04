@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+0 23 * * 0,2,4 root source <(sed -r -e 's/([^\x00]*)\x00/export \1\n/g' /proc/1/environ); php /var/www/html/manacli.php ticket 1>ticket.log 2>&1
+15 04 * * * root source <(sed -r -e 's/([^\x00]*)\x00/export \1\n/g' /proc/1/environ); php /var/www/html/manacli.php almanac 1>almanac.log 2>&1
+
